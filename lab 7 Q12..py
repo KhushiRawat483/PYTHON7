@@ -1,0 +1,5 @@
+numbers = (10, 20, 30, 40, 50)
+numbers_list = list(numbers)
+numbers_list.remove(30)
+updated_tuple = tuple(numbers_list)
+print("Updated tuple:", updated_tuple)
